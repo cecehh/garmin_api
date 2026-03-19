@@ -176,39 +176,39 @@ Les dates sont au format \*\*YYYY-MM-DD\*\* (ex: `2025-03-19`).
 
 {
 
-"date": "2025-03-19",
-
-"total\_steps": 8420,
-
-"step\_goal": 10000,
-
-"total\_distance\_meters": 6315.5,
-
-"total\_kilocalories": 2150.0,
-
-"active\_kilocalories": 450.0,
-
-"bmr\_kilocalories": 1700.0,
-
-"wellness\_active\_kilocalories": 430.0,
-
-"average\_heart\_rate": 68,
-
-"max\_heart\_rate": 142,
-
-"resting\_heart\_rate": 52,
-
-&#x20; "average\_stress\_level": 28,
-
-"floor\_climbed": 4,
-
-"minutes\_sedentary": 480,
-
-"minutes\_lightly\_active": 210,
-
-"minutes\_moderately\_active": 45,
-
-"minutes\_highly\_active": 30
+  "date": "2025-03-19",
+  
+  "total_steps": 8420,
+  
+  "step_goal": 10000,
+  
+  "total_distance_meters": 6315.5,
+  
+  "total_kilocalories": 2150.0,
+  
+  "active\_kilocalories": 450.0,
+  
+  "bmr_kilocalories": 1700.0,
+  
+  "wellness_active_kilocalories": 430.0,
+  
+  "average_heart_rate": 68,
+  
+  "max_heart_rate": 142,
+  
+  "resting_heart_rate": 52,
+  
+  "average_stress_level": 28,
+  
+  "floor_climbed": 4,
+  
+  "minutes_sedentary": 480,
+  
+  "minutes_lightly_active": 210,
+  
+  "minutes_moderately_active": 45,
+  
+  "minutes_highly_active": 30
 
 }
 
@@ -260,9 +260,9 @@ import requests
 
 r = requests.get(
 
-&#x20;   "http://localhost:8000/stats/today",
+   "http://localhost:8000/stats/today",
 
-&#x20;   auth=("ton@email.com", "motdepasse")
+   auth=("ton@email.com", "motdepasse")
 
 )
 
