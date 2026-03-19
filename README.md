@@ -66,19 +66,14 @@ garmin\_api/
 
 └── routers/
 
-&#x20;   ├── stats.py
+│   ├── stats.py
 
-&#x20;   ├── steps.py
+│   ├── steps.py
 
-&#x20;   ├── calories.py
+│   ├── calories.py
 
-&#x20;   └── heart\_rate.py
+│   └── heart\_rate.py
 
-```
-
-
-
-\---
 
 
 
@@ -92,7 +87,7 @@ garmin\_api/
 
 ```bash
 
-git clone https://github.com/ton-user/garmin-connect-api.git
+git clone https://github.com/cecehh/garmin-connect-api.git
 
 cd garmin-connect-api
 
@@ -100,19 +95,7 @@ cd garmin-connect-api
 
 
 
-\### 2. Installer les dépendances
-
-
-
-```bash
-
-pip install -r requirements.txt
-
-```
-
-
-
-\### 3. Configurer les credentials
+\### 2. Configurer les credentials
 
 
 
@@ -134,17 +117,10 @@ GARMIN\_PASSWORD=tonmotdepasse
 
 
 
-\### 4. Lancer le serveur
+\### 3. Lancer le serveur
 
 
-
-```bash
-
-cd garmin\_api
-
-python -m uvicorn main:app --reload --port 8000
-
-```
+Utilisez le fichier launch.bat
 
 
 
@@ -200,39 +176,39 @@ Les dates sont au format \*\*YYYY-MM-DD\*\* (ex: `2025-03-19`).
 
 {
 
-&#x20; "date": "2025-03-19",
+"date": "2025-03-19",
 
-&#x20; "total\_steps": 8420,
+"total\_steps": 8420,
 
-&#x20; "step\_goal": 10000,
+"step\_goal": 10000,
 
-&#x20; "total\_distance\_meters": 6315.5,
+"total\_distance\_meters": 6315.5,
 
-&#x20; "total\_kilocalories": 2150.0,
+"total\_kilocalories": 2150.0,
 
-&#x20; "active\_kilocalories": 450.0,
+"active\_kilocalories": 450.0,
 
-&#x20; "bmr\_kilocalories": 1700.0,
+"bmr\_kilocalories": 1700.0,
 
-&#x20; "wellness\_active\_kilocalories": 430.0,
+"wellness\_active\_kilocalories": 430.0,
 
-&#x20; "average\_heart\_rate": 68,
+"average\_heart\_rate": 68,
 
-&#x20; "max\_heart\_rate": 142,
+"max\_heart\_rate": 142,
 
-&#x20; "resting\_heart\_rate": 52,
+"resting\_heart\_rate": 52,
 
 &#x20; "average\_stress\_level": 28,
 
-&#x20; "floor\_climbed": 4,
+"floor\_climbed": 4,
 
-&#x20; "minutes\_sedentary": 480,
+"minutes\_sedentary": 480,
 
-&#x20; "minutes\_lightly\_active": 210,
+"minutes\_lightly\_active": 210,
 
-&#x20; "minutes\_moderately\_active": 45,
+"minutes\_moderately\_active": 45,
 
-&#x20; "minutes\_highly\_active": 30
+"minutes\_highly\_active": 30
 
 }
 
