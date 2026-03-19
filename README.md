@@ -75,7 +75,7 @@ garmin\_api/
 │   └── heart\_rate.py
 
 
-
+```
 
 \## 🚀 Installation
 
