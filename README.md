@@ -87,9 +87,8 @@ garmin\_api/
 
 ```bash
 
-git clone https://github.com/cecehh/garmin-connect-api.git
+git clone https://github.com/cecehh/garmin_api
 
-cd garmin-connect-api
 
 ```
 
